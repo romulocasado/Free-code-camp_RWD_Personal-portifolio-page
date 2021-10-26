@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+/* Overall Style */
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: ;
+  font-family: 'Squada One';
+  margin: 0;
+}
+
+/* NavBar Style */
+
+nav {
+  background-color: #2fbda1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Header Style */
+
+#container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .7);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+
+}
+header {
+  background-image: url(https://www.freecodecamp.org/news/content/images/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header h1 {
+  font-size: 60px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+header p {
+  font-size: 40px;
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+header::after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  opacity: 0.3;
+}
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Projects Style */
+
+#projects {
+  background: linear-gradient(180deg, rgb(47, 169, 181), rgb(23, 143, 131));
+  color: white;
+}
+.project-container {
+  
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 810;
+}
+.project-tile {
+  max-width: 250px;
+  margin: 10px;
+  
+}
+.project-tile img {
+  max-width: 100%;
+  width: 220px; 
+  height: 200px; 
+}
+.project-tile p {
+  margin-top: 0; 
+}
+
+/* Social Media Style */
+
+section {
+  text-align: center;
+  padding: 20px; 
+  font-family: 'Arial';
+}
+section h2{
+  margin-bottom: 10;
+}
+.bg-social {
+  background: linear-gradient(180deg, rgb(23, 143, 131), rgb(17, 138, 138));
+  color: white;
+}
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.social-links a{
+  color: white;
+  font-size: 50px;
+  margin: 5px 10px;
+}
+.social-links a:hover {
+  animation-name: a-nimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;  
+  
+}
+@keyframes a-nimation {
+  0% {
+    color: white;
+    font-size: 50px;
+  }
+  20% {
+    color: yellow;
+    font-size: 45px;
+  }
+  35% {
+    color: white;
+    font-size: 50px;
+  }
+  55% {
+    color: yellow;
+    font-size: 45px;
+  }
+  70%{
+    color: white;
+    font-size: 50px;
+  }
+  85% {
+    color: yellow;
+    font-size: 45px;
+  }
+  100% {
+    color: white;
+    font-size: 50px;
+  }
+}
+
+/* Footer Style */
+
+footer {
+  background-color: #118a8a;
+  color: #fff;
+  padding: 6px;
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (max-width: 440px) {
+  section {
+    padding: 20px;
+  }
+}

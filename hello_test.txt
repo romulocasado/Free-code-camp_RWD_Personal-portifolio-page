@@ -1,3 +1,0 @@
-# Git Test
-
-Just practicing Git after a long time.

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
 /* Overall Style */
 
 html {
@@ -9,7 +9,7 @@ html {
 }
 body {
   background-color: ;
-  font-family: 'Squada One';
+  font-family: "Squada One";
   margin: 0;
 }
 
@@ -41,11 +41,10 @@ nav a:hover {
 #container1 {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 20px;
-
 }
 header {
   background-image: url(https://www.freecodecamp.org/news/content/images/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg);
@@ -77,13 +76,13 @@ header p {
   text-align: center;
 }
 header::after {
-  content: '';
+  content: "";
   background-color: #000;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;  
+  bottom: 0;
   opacity: 0.3;
 }
 header * {
@@ -98,7 +97,6 @@ header * {
   color: white;
 }
 .project-container {
-  
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
@@ -109,25 +107,24 @@ header * {
 .project-tile {
   max-width: 250px;
   margin: 10px;
-  
 }
 .project-tile img {
   max-width: 100%;
-  width: 220px; 
-  height: 200px; 
+  width: 220px;
+  height: 200px;
 }
 .project-tile p {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 /* Social Media Style */
 
 section {
   text-align: center;
-  padding: 20px; 
-  font-family: 'Arial';
+  padding: 20px;
+  font-family: "Arial";
 }
-section h2{
+section h2 {
   margin-bottom: 10;
 }
 .bg-social {
@@ -142,17 +139,16 @@ section h2{
   padding: 0;
   margin: 0;
 }
-.social-links a{
+.social-links a {
   color: white;
   font-size: 50px;
-  margin: 5px 10px;
+  margin: 5px 15px;
 }
 .social-links a:hover {
   animation-name: a-nimation;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;  
-  
+  animation-iteration-count: infinite;
 }
 @keyframes a-nimation {
   0% {
@@ -171,7 +167,7 @@ section h2{
     color: yellow;
     font-size: 45px;
   }
-  70%{
+  70% {
     color: white;
     font-size: 50px;
   }

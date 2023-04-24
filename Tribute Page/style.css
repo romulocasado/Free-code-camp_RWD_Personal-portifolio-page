@@ -45,7 +45,7 @@ footer {
 }
 img {
   display: block;
-  width: 250px;
+  width: 2500px;
   margin: auto;
 }
 #img-div p {
@@ -79,9 +79,12 @@ nav ul li a {
   justify-content: center;
 }
 .responsive-img {
-  max-width: 50%;
-  height: auto;
+  max-width: 700px;
+  height: 500px;
 }
 .center {
+  text-align: center;
+}
+.videowrapper {
   text-align: center;
 }

@@ -26,7 +26,7 @@ img {
   height: 100%;
   opacity: 1;
   z-index: -1;
-  background: url(https://wallpapercave.com/wp/wp3574209.png) no-repeat;
+  background: url(imgs/Background.png) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: 100% 100%;
@@ -36,7 +36,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3p5DfKquyCVvVnRJQn8nX0qAqF0JUqJ4HpPorqxKmEAGI5I0lgR0il80U9_XfKCsPE0&usqp=CAU);
+  background: url(imgs/nav-bar.png);
   width: 100%;
   padding: 5px 0;
 }
@@ -90,14 +90,15 @@ a:hover {
 }
 .container2 {
   font-family: "Roboto Condensed";
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 10px auto;
   display: flex;
   font-size: 20px;
 }
+
 #header-img {
-  width: 210px;
-  height: 170px;
+  width: 500px;
+  height: 250px;
   border-radius: 10px;
 }
 .container3 {
@@ -190,7 +191,7 @@ button:hover {
 }
 .email {
   border-radius: 8px;
-  padding: 8px 15px;
+  padding: 8px 25px;
 }
 footer {
   color: white;
